@@ -79,15 +79,15 @@ Chilean RUT validator written in VanillaJS
 			// if impossible ruts(but valid tho)
 			// Eg: 11111111-1
 			if( this.cleanRut.match(/(\d)\1{7,9}/) ){
-               	return false;
-            }
+				return false;
+			}
 
-            // math validation
-            if( this.digit != this.getDigit() ){
-            	return false;
-            }
+			// math validation
+			if( this.digit != this.getDigit() ){
+				return false;
+			}
 
-            return true;
+			return true;
 		},
 
 		format : function( dots ){
