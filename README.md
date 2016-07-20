@@ -4,7 +4,7 @@ Además de hacer la comprobación matemática del RUT se preocupa de validar el 
 
 ## Uso
 
-'''
+```
 var rut_ejemplo = '5932544-2'
 var Rut = new NinjaRut( rut_ejemplo );
-'''
+```
